@@ -40,4 +40,6 @@
 
 .n-button{
     flex: 2;
+    width: 8rem;
+    height: 2rem;
 }
