@@ -26,14 +26,15 @@
 .i-name>:nth-child(2){
     color: var(--orange);
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .i-name>:nth-child(3){
-    color: var(--gray);
     font-weight: 100;
     font-size: 24px;
+    color: var(--gray);
     margin-top: 10px;
+    margin-right: 50rem;;
 }
 
 .i-button{
@@ -57,5 +58,31 @@
 }
 
 .i-right {
+    display: flex;
+    position: relative;
     flex: 1;
+
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){ 
+    transform: scale(0.99);
+    left: -45rem;
+    top: -1rem;
+}
+
+.i-right>:nth-child(2){
+    top: -2.6rem;   
+    transform: scale(0.97);
+    left: -45rem;
+}
+
+.i-right>:nth-child(3){
+    
+    transform: scale(1.45);
+    left: -40rem;
 }
